@@ -9,7 +9,7 @@ disp("Calculating Roots Using Newton Raphson Method!");
 disp("**********************************************");
 while(abs(x-xx)>=eps) // Run Loop Until Error Is Less Than Difference Of Current And Previous Roots!
   z=x-(f(x)/df(x)); // Formula
-  disp("Iteration "+string(i)+" Value Of Root "+string(x));
+  disp("Iteration "+string(i)+" Value Of Root "+string(z));
   xx=x;
   x=z;
   i=i+1; // Increment i
